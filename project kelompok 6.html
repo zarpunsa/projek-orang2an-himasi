@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="project kelompok 6.css" />
+  </head>
+  <script>
+    alert("HARAP ISI FORMULIR INI DENGAN BAIK DAN BENAR")
+  </script>
+  <body>
+    <div id="background"></div>
+    <section class="container">
+      <header>Formulir Pendaftaran Anggota Klub Olahraga</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Nama Lengkap</label>
+          <input type="text" placeholder="Masukkan Nama Lengkap anda" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email</label>
+          <input type="text" placeholder="Masukkan Alamat Email anda" required />
+        </div>
+
+        <div class="input-box">
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Masukkan Password anda" required>
+          </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Nomor Telepon</label>
+            <input type="number" placeholder="Masukkan Nomor Telepon anda" required />
+          </div>
+          <div class="input-box">
+            <label>Tanggal Lahir</label>
+            <input type="date" placeholder="Masukkan Tanggal Lahir anda" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Jenis Kelamin</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">Laki-Laki</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Perempuan</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Alamat</label>
+          <input type="text" placeholder="Masukkan Alamat anda" required />
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>Negara</option>
+                <option>Indonesia</option>
+                <option>Malaysia</option>
+                <option>Singapore</option>
+                <option>Thailand</option>
+                <option>Timor Leste</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Masukkan Kota anda" required />
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Masukkan Wilayah anda" required />
+            <input type="number" placeholder="Masukkan Kode Pos anda" required />
+          </div>
+        </div>
+        <div class="check-box">
+            <label>Cabang Olagraga Pilihan: </label>
+              <p><input type="checkbox" name="checkbox1" value="Gym" /> Gym</p>
+              <p><input type="checkbox" name="checkbox2" value="Renang" /> Renang </p>
+              <p><input type="checkbox" name="checkbox3" value="Voli" /> Voli</p>
+              <p><input type="checkbox" name="checkbox4" value="Taekwondo" /> Taekwondo</p>
+              <p><input type="checkbox" name="checkbox5" value="Sepak Bola" /> Sepak Bola </p>
+              <p><input type="checkbox" name="checkbox6" value="Basket" /> Basket</p>
+              <p><input type="checkbox" name="checkbox7" value="other" /> other <input type="text"></p>
+          </div>
+
+        <div class="check-box">
+          <label>Riwayat Olahraga Sebelumnya: </label>
+              <p><input type="checkbox" name="checkbox1" value="Gym" /> Gym</p>
+              <p><input type="checkbox" name="checkbox2" value="Renang" /> Renang </p>
+              <p><input type="checkbox" name="checkbox3" value="Voli" /> Voli</p>
+              <p><input type="checkbox" name="checkbox4" value="Taekwondo" /> Taekwondo</p>
+              <p><input type="checkbox" name="checkbox5" value="Sepak Bola" /> Sepak Bola </p>
+              <p><input type="checkbox" name="checkbox6" value="Basket" /> Basket</p>
+              <input type="checkbox" name="checkbox7" value="other" /> other <input type="text">
+        </div>
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
